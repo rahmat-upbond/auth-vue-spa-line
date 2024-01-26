@@ -24,7 +24,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
 <script lang="ts">
 import { Auth0Client } from '@auth0/auth0-spa-js'
-const URL = 'https://auth-vue-spa-line.vercel.app';
+const URL = 'https://auth-sample-line.vercel.app';
 
 const auth0 = new Auth0Client({
   domain: 'https://be924997.auth.stg.upbond.io',
